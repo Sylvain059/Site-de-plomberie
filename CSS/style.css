@@ -278,7 +278,7 @@ footer ul li {
   }
   main p {
     width: 75%;
-    margin: 0 auto;
+    margin: 15px auto;
     text-align: justify;
     padding: 10px;
 
@@ -345,4 +345,31 @@ footer ul li {
     border: none;
     margin: 5px;
   }
+/*Fin du style pour la page formulaire (min-width:992px)****************************************************************************************/
+
+/*Début du style pour la page tarif (min-width:992px)***************************************************************/
+
+  table {
+    border-collapse: collapse;
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  caption {
+    font-size: 1.25em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  th {
+    border: 1px solid black;
+  }
+
+  td {
+    border: 1px solid black;
+  }
+
+/**Fin du style pour la page tarif (min-width:992px)****************************************************************/
+
+
 }
