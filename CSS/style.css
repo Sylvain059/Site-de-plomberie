@@ -314,4 +314,35 @@ footer ul li {
     border: 1px ridge black;
     border-radius: 5px;
   }
+/*fin du style index (min-width=992px)********************************************************/
+
+/*début du style contact (min-width=992px)********************************************/
+  form {
+    width: 83%;
+    height: auto;
+
+  }
+
+  input {
+    display:block;
+    margin: 10px auto;
+  }
+
+  label {
+    display: block;
+    text-align: center;
+  }
+
+  textarea {
+    display: block;
+    width: 360px;
+    margin: 20px auto;
+  }
+
+  iframe {
+    width: 99%;
+    height: 480px;
+    border: none;
+    margin: 5px;
+  }
 }
