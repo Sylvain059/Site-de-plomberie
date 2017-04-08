@@ -477,6 +477,35 @@ footer ul li {
     background-color: pink;
     margin-top: 15px;
     font-size: 0.75em;
+  }
+/*Fin du style pour index.html min width:481 &max-width:991px********************************************************/
 
+/*Début style pour contact min 481px & max 991px******************************************************************/
+
+  form {
+    background-color: white;
+  }
+
+  input {
+    display:block;
+    margin: 10px auto;
+  }
+
+  label {
+    display: block;
+    text-align: center;
+  }
+
+  textarea {
+    display: block;
+    width: 360px;
+    margin: 20px auto;
+  }
+
+  iframe {
+    width: 99%;
+    height: 240px;
+    border: none;
+    margin: 5px;
   }
 }
