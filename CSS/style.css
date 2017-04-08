@@ -11,16 +11,18 @@ a:hover {
 /****************************************Style page d'accueil (max 480px)**************************/
   header {
     width: 100%;
-    height: 100px;
+    height: 150px;
     background-color: blue;
     border: 1px ridge black;
     border-radius: 5px;
   }
   .icone {
-    width: 55px;
-    height: 55px;
-    position: absolute;
-    left: 1em;
+    width: 15%;
+    height: 15%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 0 0 15px;
   }
 
   nav ul {
@@ -38,7 +40,7 @@ a:hover {
     width: 50%;
     font-size: 1em;
     text-align: center;
-    margin: 55px auto 0 auto;
+    margin: auto ;
     background-color: cyan;
     border: 2px solid black;
     border-radius: 5px;
@@ -177,8 +179,8 @@ footer ul li {
     border: 1px ridge black;
   }
 }
-
-@media (min-width: 990px) {
+/*media querie***************************************************************************/
+@media (min-width: 992px) {
   header {
     width: 100%;
     border: 1px ridge black;
@@ -193,8 +195,6 @@ footer ul li {
 
   nav ul {
     background-color: cyan;
-    width: 300px;
-    height: 50px;
     position: absolute;
     top: 0;
     right: 14px;
@@ -205,13 +205,9 @@ footer ul li {
 
   nav ul li {
     display: inline-block;
-    width: auto;
-    height: 20px;
-    padding: 0 5px;
+
     font-size: 0.85em;
-    margin: 13px 5px 0 5px;
-    position: relative;
-    left: 25px;
+
 
 
     border: 1px ridge black;
@@ -368,8 +364,119 @@ footer ul li {
   td {
     border: 1px solid black;
   }
-
+}
 /**Fin du style pour la page tarif (min-width:992px)****************************************************************/
 
+/**Début du style pour la page index (min-width:481px)******************************************************************/
 
+@media (min-width:481px) and (max-width:991px) {
+  header {
+    width:100%;
+
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  header nav {
+    width: 100%;
+
+    background-color: orange;
+  }
+
+  .icone {
+    width: 15%;
+    height: 15%;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px 0 0 15px;
+  }
+
+  nav ul {
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 14px;
+
+  }
+
+  nav ul li {
+    display: inline-block;
+    font-size: 0.85em;
+
+    background-color: cyan;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  aside {
+
+    background-color: yellow;
+  }
+
+  aside ul li {
+    display: inline-block;
+    background: blue;
+    width: 20%;
+  }
+
+  aside ul li img {
+    width: 15%;
+    height: 15%;
+  }
+
+  main {
+    background-color: lightgrey;
+    width: 100%;
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: justify;
+    margin: 15px;
+    padding: 5px;
+
+    background-color: cyan;
+  }
+
+  main img {
+    display: block;
+    margin: 20px auto;
+  }
+
+  footer {
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: cyan;
+  }
+
+  footer ul {
+    background-color: yellow;
+    width: 35%;
+    height: 100%;
+
+  }
+
+  footer li {
+    display: inline-block;
+    background-color: pink;
+    margin-top: 15px;
+    font-size: 0.75em;
+
+  }
 }
