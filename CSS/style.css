@@ -508,4 +508,28 @@ footer ul li {
     border: none;
     margin: 5px;
   }
+/*Fin du style page contact min width:481px-max-width:991px******************************************************/
+
+/*Début du style page tarif min width:481px-max width:991px*********************************************************/
+
+table {
+  border-collapse: collapse;
+  margin: 15px auto;
+  text-align: center;
+}
+
+caption {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+th {
+  border: 1px solid black;
+}
+
+td {
+  border: 1px solid black;
+}
+
 }
