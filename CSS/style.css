@@ -78,6 +78,7 @@ a:hover {
     border-radius: 5px;
     padding: 15px 5px;
     margin: 5px;
+    background-color: white;
   }
 
   main img {
@@ -99,13 +100,6 @@ a:hover {
    width: 60%;
    height: 40px;
    margin:18px auto;
-   text-align: right;
-
-   background-color: cyan;
-   border: 1px solid black;
-   border-radius: 5px;
-
-
  }
 
 footer ul li {
@@ -115,9 +109,6 @@ footer ul li {
    margin: 11px auto;
    padding: 0 0.5em;
 
-   background-color: red;
-   border: 1px solid black;
-   border-radius: 5px;
  }
 /***************************Fin du style page d'accueil (max 480px)**************************/
 
@@ -125,7 +116,6 @@ footer ul li {
  form {
    width: auto;
    font-size: 80%;
-
    margin: 5px 15px;
  }
 
@@ -173,10 +163,12 @@ footer ul li {
   th {
     border-collapse: collapse;
     border: 1px ridge black;
+    background-color: cyan;
   }
   td {
     border-collapse: collapse;
     border: 1px ridge black;
+    background-color: white;
   }
 }
 /*media querie***************************************************************************/
@@ -185,34 +177,18 @@ footer ul li {
     width: 100%;
     border: 1px ridge black;
     border-radius: 5px;
-
-    background-color: green;
-  }
-
-  nav {
-  background-color: yellow;
+    background-color: grey;
   }
 
   nav ul {
-    background-color: cyan;
     position: absolute;
     top: 0;
     right: 14px;
-
-    border: 1px ridge black;
-    border-radius: 5px;
   }
 
   nav ul li {
     display: inline-block;
-
-    font-size: 0.85em;
-
-
-
-    border: 1px ridge black;
-    border-radius: 5px;
-    background-color: pink;
+    font-size: 1em;
   }
 
   .menu {
@@ -229,6 +205,10 @@ footer ul li {
 
   h1 {
     text-align: center;
+    background-color: white;
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px auto;
   }
 
   aside {
@@ -237,9 +217,8 @@ footer ul li {
     margin-top: 15px;
     position: absolute;
     right: 8px;
-
-    background-color: pink;
-    border: 1px ridge black;
+    background-color: lightgrey;
+    border: 2px ridge black;
     border-radius: 5px;
   }
 
@@ -287,7 +266,7 @@ footer ul li {
     width: auto;
     margin-top: 15px;
 
-    background-color: lightblue;
+    background-color: lightgrey;
     border: 1px ridge black;
     border-radius: 5px;
   }
@@ -296,19 +275,11 @@ footer ul li {
     width: 200px;
     padding: inherit;
     margin: 15px;
-
-    background-color: white;
-    border: 1px ridge black;
-    border-radius: 5px;
   }
 
   footer li {
     display: inline-block;
     width: auto;
-
-    background-color: cyan;
-    border: 1px ridge black;
-    border-radius: 5px;
   }
 /*fin du style index (min-width=992px)********************************************************/
 
@@ -359,10 +330,12 @@ footer ul li {
 
   th {
     border: 1px solid black;
+    background-color: white;
   }
 
   td {
     border: 1px solid black;
+    background-color: white;
   }
 }
 /**Fin du style pour la page tarif (min-width:992px)****************************************************************/
@@ -372,7 +345,6 @@ footer ul li {
 @media (min-width:481px) and (max-width:991px) {
   header {
     width:100%;
-
     background-color: lightgrey;
     border: 1px solid black;
     border-radius: 5px;
@@ -380,8 +352,6 @@ footer ul li {
 
   header nav {
     width: 100%;
-
-    background-color: orange;
   }
 
   .icone {
@@ -394,7 +364,6 @@ footer ul li {
   }
 
   nav ul {
-    background-color: white;
     position: absolute;
     top: 0;
     right: 14px;
@@ -404,8 +373,7 @@ footer ul li {
   nav ul li {
     display: inline-block;
     font-size: 0.85em;
-
-    background-color: cyan;
+    background-color: white;
     border: 1px solid black;
     border-radius: 5px;
   }
@@ -419,13 +387,14 @@ footer ul li {
   }
 
   aside {
-
-    background-color: yellow;
+    background-color: grey;
+    border: 2px ridge black;
+    border-radius: 5px;
+    margin: 10px auto;
   }
 
   aside ul li {
     display: inline-block;
-    background: blue;
     width: 20%;
   }
 
@@ -439,6 +408,8 @@ footer ul li {
     width: 100%;
     height: auto;
     padding-bottom: 15px;
+    border: 2px ridge black;
+    border-radius: 5px;
   }
 
   h2 {
@@ -449,8 +420,8 @@ footer ul li {
     text-align: justify;
     margin: 15px;
     padding: 5px;
-
-    background-color: cyan;
+    background-color: white;
+    border-radius: 5px;
   }
 
   main img {
@@ -462,11 +433,12 @@ footer ul li {
     width: 100%;
     height: 50px;
     margin-top: 15px;
-    background-color: cyan;
+    background-color: lightgrey;
+    border: 2px ridge black;
+    border-radius: 5px;
   }
 
   footer ul {
-    background-color: yellow;
     width: 35%;
     height: 100%;
 
@@ -474,9 +446,7 @@ footer ul li {
 
   footer li {
     display: inline-block;
-    background-color: pink;
-    margin-top: 15px;
-    font-size: 0.75em;
+    font-size: 1em;
   }
 /*Fin du style pour index.html min width:481 &max-width:991px********************************************************/
 
@@ -484,11 +454,14 @@ footer ul li {
 
   form {
     background-color: white;
+    width: 60%;
+    margin: auto;
+    border-radius: 5px;
   }
 
   input {
     display:block;
-    margin: 10px auto;
+    margin: 20px auto;
   }
 
   label {
@@ -507,6 +480,7 @@ footer ul li {
     height: 240px;
     border: none;
     margin: 5px;
+    border-radius: 5px;
   }
 /*Fin du style page contact min width:481px-max-width:991px******************************************************/
 
@@ -526,10 +500,12 @@ caption {
 
 th {
   border: 1px solid black;
+  background-color: grey;
 }
 
 td {
   border: 1px solid black;
+  background-color: white;
 }
 
 }
